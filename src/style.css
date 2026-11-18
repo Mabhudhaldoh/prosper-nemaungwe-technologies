@@ -31,3 +31,9 @@ body{background:#f8f7f4;color:#171717;font-family:'DM Sans',sans-serif}
 .footer{background:#191a19;color:#aaa79f}.footer-brand .brand-name{color:#f5f2ec}.footer-top{border-color:#ffffff20}.back-top{color:#d18a63}.footer-bottom{color:#aaa79f}
 @media(max-width:650px){.header{height:68px}.nav{background:#f8f7f4;top:68px}.hero{padding-top:70px}.hero h1{font-size:52px;letter-spacing:-3px}.hero-bottom{margin-top:65px}.section{padding:72px 0}.about-section,.contact-section{padding:72px 0}}
 .toolbox-section{background:#f0eee9}.toolbox-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #ddd8cf;border-left:1px solid #ddd8cf}.toolbox-grid>div{padding:23px;border-right:1px solid #ddd8cf;border-bottom:1px solid #ddd8cf;min-height:110px}.toolbox-grid b{font:700 12px Manrope;color:#222}.toolbox-grid p{font-size:12px;line-height:1.8;color:#716d66;margin:12px 0 0}@media(max-width:650px){.toolbox-grid{grid-template-columns:1fr 1fr}.toolbox-grid>div{padding:17px}}
+
+
+/* Subtle dotted paper texture across the warm off-white surfaces. */
+:root{--dot-ink:rgba(45,39,32,.12)}
+body{background-color:#f8f7f4;background-image:radial-gradient(var(--dot-ink) .7px,transparent .8px);background-size:18px 18px}
+.hero,.services-section,.process-section{background-color:#f8f7f4;background-image:radial-gradient(var(--dot-ink) .7px,transparent .8px);background-size:18px 18px}

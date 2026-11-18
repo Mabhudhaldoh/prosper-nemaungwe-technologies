@@ -105,7 +105,7 @@ document.querySelector('#root').innerHTML = `
 
   <section class="contact-section" id="contact">
     <div class="container contact-grid">
-      <div><div class="eyebrow">LET'S BUILD SOMETHING</div><h2>Have a project<br>in <span>mind?</span></h2><p>Tell us what you are trying to achieve. We'll get back to you to discuss the next steps.</p><div class="contact-detail">${icon('map-pin')} Harare, Zimbabwe · Working with clients remotely</div><div class="contact-detail">${icon('mail')} Email: <a href="mailto:hello@yourdomain.co.zw">Add your business email</a></div></div>
+      <div><div class="eyebrow">LET'S BUILD SOMETHING</div><h2>Have a project<br>in <span>mind?</span></h2><p>Tell us what you are trying to achieve. We'll get back to you to discuss the next steps.</p><div class="contact-detail">${icon('map-pin')} Harare, Zimbabwe · Working with clients remotely</div><div class="contact-detail">${icon('mail')} Email: <a href="mailto:prostechnology15@gmail.com">prostechnology15@gmail.com</a></div><div class="contact-detail">${icon('message-circle')} WhatsApp: <a href="https://wa.me/263719743647" target="_blank" rel="noopener noreferrer">+263 71 974 3647</a></div></div>
       <form class="contact-form" id="contact-form">
         <div class="form-heading"><b>Tell us about your project</b><span>Fields marked * are required.</span></div>
         <label>Your name *<input name="name" required placeholder="e.g. Tendai Moyo"></label>
@@ -113,7 +113,7 @@ document.querySelector('#root').innerHTML = `
         <label>Service you need<select name="service" required><option value="">Choose a service</option>${services.map(s=>`<option>${s.title}</option>`).join('')}<option>Something else</option></select></label>
         <label>Project details *<textarea name="message" rows="4" required placeholder="Briefly describe what you need..."></textarea></label>
         <button class="btn btn-gold submit-btn" type="submit">Prepare enquiry ${icon('arrow-up-right')}</button>
-        <p class="form-hint" id="form-hint">Your email app will open with your enquiry ready to send. No information is stored on this website.</p>
+        <p class="form-hint" id="form-hint">Your email app will open with your enquiry ready to send. You can also contact us directly on WhatsApp.</p>
       </form>
     </div>
   </section>
@@ -168,7 +168,7 @@ document.querySelector('#contact-form').addEventListener('submit', e => {
   const d = new FormData(e.currentTarget);
   const subject = encodeURIComponent(`Project enquiry: ${d.get('service')}`);
   const body = encodeURIComponent(`Name: ${d.get('name')}\nEmail: ${d.get('email')}\nService: ${d.get('service')}\n\nProject details:\n${d.get('message')}`);
-  window.location.href = `mailto:hello@yourdomain.co.zw?subject=${subject}&body=${body}`;
-  document.querySelector('#form-hint').textContent = 'Your email app should open now. Replace hello@yourdomain.co.zw with your real business email before publishing.';
+  window.location.href = `mailto:prostechnology15@gmail.com?subject=${subject}&body=${body}`;
+  document.querySelector('#form-hint').textContent = 'Your email app should open now with your enquiry ready to send.';
 });
 import('lucide').then(({createIcons}) => createIcons());

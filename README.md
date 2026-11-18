@@ -21,8 +21,9 @@ Run `npm run build`. The production website is generated in `dist/`.
 4. Deploy. Vercel will provide a free `*.vercel.app` address.
 
 ## Before publishing — important edits
-- In `src/main.js`, replace `hello@yourdomain.co.zw` with your real business email in both the contact details and the `mailto:` form action.
-- Add your WhatsApp number and a WhatsApp contact link when you are ready.
+- Business email: `prostechnology15@gmail.com`.
+- WhatsApp: `+263 71 974 3647` (`https://wa.me/263719743647`).
+- The warm off-white surfaces use a subtle CSS dot-grid texture.
 - Add your own project screenshots and confirm each portfolio description reflects the exact work you want to publish.
 - Add your preferred business contact details and social links.
 

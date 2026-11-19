@@ -188,3 +188,35 @@ body{
 @media(max-width:650px){
   .nav{background:rgba(8,22,44,.96);color:#e2eaf5}
 }
+
+
+/* Premium black glass identity with subtle golden dot texture. */
+:root{--gold:#d6b46a;--gold-bright:#f0d48c;--gold-dot:rgba(214,180,106,.68);--glass-border:rgba(214,180,106,.22)}
+html{background:#08090c}
+body{color:#f4f1e9;background-color:#08090c;background-image:radial-gradient(circle,var(--gold-dot) .75px,transparent .95px),linear-gradient(135deg,#111214 0%,#07080a 55%,#171512 100%);background-size:18px 18px,100% 100%;background-attachment:fixed}
+.header{background:rgba(8,9,12,.76);color:#f7f3e9;border-bottom:1px solid var(--glass-border);-webkit-backdrop-filter:blur(22px);backdrop-filter:blur(22px)}
+.brand-logo{display:block;width:48px;height:48px;object-fit:contain;border-radius:10px;background:rgba(255,255,255,.94);padding:3px;border:1px solid rgba(214,180,106,.5)}
+.brand-name{color:#f7f3e9}.brand-name b{color:var(--gold-bright)}
+.nav{color:#ded8c9}.nav a:hover,.nav-cta{color:var(--gold-bright)!important}.nav-cta{border-color:var(--gold);background:rgba(214,180,106,.07)}.menu-toggle{color:#f7f3e9}
+.hero,.services-section,.process-section,.work-section,.toolbox-section,.contact-section{color:#f4f1e9;background-color:rgba(8,9,12,.54);background-image:radial-gradient(circle,var(--gold-dot) .72px,transparent .95px),linear-gradient(135deg,rgba(25,25,25,.82),rgba(7,8,10,.84));background-size:18px 18px,100% 100%;-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px)}
+.hero{color:#f4f1e9}.hero h1,.section h2,.contact-section h2{color:#f7f3e9}.hero h1 span,.section h2 span,.contact-section h2 span,.about-copy h2 span{color:var(--gold-bright)}
+.eyebrow,.dark-eyebrow,.project-tag,.text-link{color:var(--gold-bright)}.eyebrow-dot{background:var(--gold);box-shadow:0 0 0 5px rgba(214,180,106,.15)}
+.hero-lead,.section-heading>p,.contact-grid>div>p{color:#c9c4b8}.hero-proof,.hero-bottom{color:#aaa397}.hero-bottom div{background:rgba(214,180,106,.25)}
+.btn-gold{background:linear-gradient(135deg,#e4c77e,#b58c43);color:#17130b}.btn-outline{border:1px solid rgba(214,180,106,.52);color:#f7f3e9;background:rgba(255,255,255,.035)}
+.services-grid,.toolbox-grid{border-color:var(--glass-border)}
+.service-card,.project-card,.contact-form,.toolbox-grid>div{color:#f4f1e9;background:rgba(19,20,23,.66);border-color:var(--glass-border);box-shadow:0 16px 42px rgba(0,0,0,.24);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}
+.service-card:hover{background:rgba(35,33,28,.78)}.service-card h3,.project-info h3,.toolbox-grid b{color:#f7f3e9}.service-card p,.project-info p,.toolbox-grid p{color:#c4beb1}.service-number,.project-stack,.work-note{color:#a9a294}
+.service-icon{background:rgba(214,180,106,.12);color:var(--gold-bright)}.project-card{background:rgba(18,19,21,.76)}.project-art{filter:brightness(.72) saturate(.72)}.project-index{background:#c5a35c;color:#15120b}
+.about-section{background:rgba(7,8,10,.86);color:#f4f1e9;border-top:1px solid var(--glass-border);border-bottom:1px solid var(--glass-border)}
+.about-visual{background:rgba(24,24,24,.72);border:1px solid var(--glass-border);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}
+.about-visual:before,.about-visual:after{border-color:rgba(214,180,106,.25)}
+.about-logo{position:relative;z-index:1;display:block;width:min(58%,250px);height:190px;object-fit:contain;padding:12px;border-radius:16px;background:rgba(255,255,255,.96);border:1px solid rgba(214,180,106,.5);box-shadow:0 18px 55px rgba(0,0,0,.28)}
+.about-caption span,.about-points i,.light-link{color:var(--gold-bright)}.about-copy h2{color:#f7f3e9}.about-copy>p,.about-points div{color:#c9c4b8}
+.process-step{border-color:var(--glass-border)}.process-step>span{color:var(--gold-bright)}.process-step h3{color:#f7f3e9}.process-step p{color:#c4beb1}
+.contact-section{color:#f4f1e9}.contact-detail{color:#ded8c9}.contact-detail i,.contact-detail a{color:var(--gold-bright)}
+.contact-form{background:rgba(19,20,23,.78)}.form-heading b,.contact-form label{color:#f7f3e9}.form-heading span,.form-hint{color:#b9b2a4}
+.contact-form input,.contact-form select,.contact-form textarea{color:#f7f3e9;background:rgba(7,8,10,.7);border-color:rgba(214,180,106,.24)}
+.contact-form input::placeholder,.contact-form textarea::placeholder{color:#989184}
+.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(214,180,106,.13)}
+.footer{background:#050608;color:#aaa397;border-top:1px solid var(--glass-border)}.footer-brand .brand-name{color:#f7f3e9}.footer-top{border-color:var(--glass-border)}.back-top{color:var(--gold-bright)}
+@media(max-width:650px){.brand-logo{width:42px;height:42px}.nav{background:rgba(8,9,12,.97);color:#eee8da;border-top:1px solid var(--glass-border)}}

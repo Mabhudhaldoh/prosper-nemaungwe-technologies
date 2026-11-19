@@ -86,3 +86,105 @@ body{
 @media(max-width:650px){
   .nav{background:rgba(235,218,170,.96);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
 }
+
+
+/* Premium glassy navy surfaces with a subtle red dotted texture. */
+:root{
+  --glass-navy:rgba(10,28,58,.78);
+  --glass-navy-light:rgba(18,43,79,.62);
+  --red-dot:rgba(190,48,55,.72);
+  --navy-edge:rgba(130,163,205,.22);
+}
+body{
+  background-color:#0b1932;
+  background-image:
+    radial-gradient(circle,var(--red-dot) .8px,transparent 1px),
+    linear-gradient(135deg,#10294b 0%,#09172e 52%,#142d50 100%);
+  background-size:16px 16px,100% 100%;
+  background-attachment:fixed;
+  color:#eef3fa;
+}
+.header{
+  background:rgba(8,22,44,.78);
+  color:#f4f6fa;
+  border-bottom:1px solid var(--navy-edge);
+  -webkit-backdrop-filter:blur(20px);
+  backdrop-filter:blur(20px);
+}
+.brand-name{color:#f4f6fa}
+.nav{color:#d5dfed}
+.nav a:hover{color:#e16a70}
+.nav-cta{border-color:#c9434d;color:#ffdadd!important}
+.menu-toggle{color:#f4f6fa}
+.hero,.services-section,.process-section,.work-section,.toolbox-section,.contact-section{
+  background-color:rgba(10,27,54,.52);
+  background-image:
+    radial-gradient(circle,var(--red-dot) .75px,transparent 1px),
+    linear-gradient(135deg,rgba(23,53,91,.68),rgba(7,19,39,.72));
+  background-size:16px 16px,100% 100%;
+  -webkit-backdrop-filter:blur(14px);
+  backdrop-filter:blur(14px);
+}
+.hero{color:#f4f6fa}
+.hero h1,.section h2,.contact-section h2{color:#f4f6fa}
+.hero h1 span,.section h2 span,.contact-section h2 span{color:#e16a70}
+.eyebrow,.dark-eyebrow{color:#ed8589}
+.eyebrow-dot{background:#d64b55;box-shadow:0 0 0 5px rgba(214,75,85,.16)}
+.hero-lead,.section-heading>p{color:#c1cddd}
+.hero-proof,.hero-bottom{color:#aab9ce}
+.hero-bottom div{background:rgba(220,231,246,.2)}
+.btn-gold{background:#c9434d;color:white}
+.btn-outline{border-color:rgba(220,231,246,.42);color:#f4f6fa}
+.section{color:#eef3fa}
+.services-grid,.toolbox-grid{border-color:var(--navy-edge)}
+.service-card,.project-card,.contact-form,.toolbox-grid>div{
+  background:rgba(17,39,72,.68);
+  color:#edf3fb;
+  border-color:var(--navy-edge);
+  box-shadow:0 14px 36px rgba(0,0,0,.16);
+  -webkit-backdrop-filter:blur(18px);
+  backdrop-filter:blur(18px);
+}
+.service-card:hover{background:rgba(27,55,94,.82)}
+.service-card h3,.project-info h3,.toolbox-grid b{color:#f3f6fb}
+.service-card p,.project-info p,.toolbox-grid p{color:#bdc9d9}
+.service-number,.project-stack,.work-note{color:#a5b4c9}
+.service-icon{background:rgba(201,67,77,.15);color:#f08086}
+.text-link,.project-tag{color:#f08086}
+.work-section{background-color:rgba(10,27,54,.58)}
+.project-card{background:rgba(17,39,72,.72)}
+.project-art{filter:saturate(.82)}
+.project-index{background:#c9434d;color:white}
+.about-section{background:rgba(5,15,31,.88);border-top:1px solid var(--navy-edge);border-bottom:1px solid var(--navy-edge)}
+.about-visual{background:rgba(22,49,85,.68);border-color:var(--navy-edge);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
+.about-visual:before,.about-visual:after{border-color:rgba(214,75,85,.32)}
+.about-monogram span,.about-caption span,.about-points i,.light-link{color:#ed8589}
+.about-copy h2{color:#f4f6fa}
+.about-copy h2 span{color:#ed8589}
+.about-copy>p,.about-points div{color:#c1cddd}
+.process-step{border-color:var(--navy-edge)}
+.process-step>span{color:#ed8589}
+.process-step h3{color:#f3f6fb}
+.process-step p{color:#bdc9d9}
+.contact-section{background-color:rgba(9,25,50,.68);color:#eef3fa}
+.contact-grid>div>p{color:#c1cddd}
+.contact-detail{color:#d5dfed}
+.contact-detail i,.contact-detail a{color:#ed8589}
+.contact-form{background:rgba(20,43,75,.82)}
+.form-heading b,.contact-form label{color:#f3f6fb}
+.form-heading span,.form-hint{color:#b4c2d4}
+.contact-form input,.contact-form select,.contact-form textarea{
+  color:#f4f6fa;background:rgba(7,20,40,.66);
+  border-color:rgba(150,177,211,.3);
+}
+.contact-form input::placeholder,.contact-form textarea::placeholder{color:#9eafc5}
+.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{
+  border-color:#d6535d;box-shadow:0 0 0 3px rgba(214,83,93,.16)
+}
+.footer{background:#050e1d;color:#aab9ce;border-top:1px solid var(--navy-edge)}
+.footer-brand .brand-name{color:#f4f6fa}
+.footer-top{border-color:var(--navy-edge)}
+.back-top{color:#ed8589}
+@media(max-width:650px){
+  .nav{background:rgba(8,22,44,.96);color:#e2eaf5}
+}

@@ -228,3 +228,40 @@ body{color:#f4f1e9;background-color:#08090c;background-image:radial-gradient(cir
 .header .brand-name{font-family:'DM Sans',sans-serif;font-size:12px;font-weight:400!important;letter-spacing:1.35px;line-height:1.55;color:#f7f3e9;white-space:nowrap}
 .header .brand-name span{display:block;font-size:10px;font-weight:400!important;letter-spacing:3px;color:var(--gold-bright)}
 @media(max-width:650px){.header .brand-logo{width:54px;height:52px}.header .brand-name{font-size:10px;letter-spacing:1px}.header .brand-name span{font-size:8px;letter-spacing:2.4px}}
+
+
+/* White navigation bar with light-blue non-paragraph typography */
+.header{
+  background:#ffffff!important;
+  color:#8fc9f2!important;
+  border-bottom:1px solid #dceaf5!important;
+  -webkit-backdrop-filter:none;
+  backdrop-filter:none;
+}
+.header .brand-name,
+.header .brand-name span,
+.header .nav,
+.header .nav a,
+.header .menu-toggle{
+  color:#78b9e8!important;
+}
+.header .nav a:hover,
+.header .nav .nav-cta{
+  color:#4d9ed8!important;
+}
+.header .nav-cta{
+  border-color:#9bcdf0!important;
+  background:rgba(120,185,232,.10)!important;
+}
+@media(max-width:650px){
+  .header .nav{background:#fff!important;border-top:1px solid #dceaf5!important}
+}
+
+/* Convert white display text to light blue; paragraph copy keeps its existing colours. */
+.hero h1,.section h2,.contact-section h2,.about-copy h2,
+.service-card h3,.project-info h3,.toolbox-grid b,
+.process-step h3,.form-heading b,.contact-form label,
+.about-caption b,.footer-brand .brand-name{
+  color:#a9d7f5!important;
+}
+.btn-outline{color:#a9d7f5!important}

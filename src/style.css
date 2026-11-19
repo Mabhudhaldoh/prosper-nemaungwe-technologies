@@ -37,3 +37,52 @@ body{background:#f8f7f4;color:#171717;font-family:'DM Sans',sans-serif}
 :root{--dot-ink:rgba(45,39,32,.12)}
 body{background-color:#f8f7f4;background-image:radial-gradient(var(--dot-ink) .7px,transparent .8px);background-size:18px 18px}
 .hero,.services-section,.process-section{background-color:#f8f7f4;background-image:radial-gradient(var(--dot-ink) .7px,transparent .8px);background-size:18px 18px}
+
+
+/* Champagne-gold glass surface with fine navy-blue dotted texture. */
+:root{
+  --glass-gold:rgba(218,185,103,.24);
+  --glass-gold-strong:rgba(218,185,103,.38);
+  --navy-dot:rgba(11,27,55,.42);
+  --gold-edge:rgba(154,116,43,.24);
+}
+body{
+  background-color:#e9d9ad;
+  background-image:
+    radial-gradient(circle, var(--navy-dot) .85px, transparent 1px),
+    linear-gradient(135deg,#f2e6c5 0%,#dfc47f 48%,#f0e3bf 100%);
+  background-size:16px 16px,100% 100%;
+  background-attachment:fixed;
+}
+.header{
+  background:rgba(235,218,170,.78);
+  -webkit-backdrop-filter:blur(18px);
+  backdrop-filter:blur(18px);
+  border-bottom:1px solid rgba(119,91,38,.22);
+}
+.hero,.services-section,.process-section,.work-section,.toolbox-section,.contact-section{
+  background-color:rgba(231,210,153,.48);
+  background-image:
+    radial-gradient(circle,var(--navy-dot) .8px,transparent 1px),
+    linear-gradient(135deg,rgba(255,250,232,.46),rgba(202,169,87,.18));
+  background-size:16px 16px,100% 100%;
+  -webkit-backdrop-filter:blur(12px);
+  backdrop-filter:blur(12px);
+}
+.section,.process-section,.contact-section{position:relative}
+.service-card,.project-card,.contact-form,.toolbox-grid>div{
+  background:rgba(255,252,240,.62);
+  -webkit-backdrop-filter:blur(14px);
+  backdrop-filter:blur(14px);
+  border-color:var(--gold-edge);
+  box-shadow:0 10px 30px rgba(62,47,17,.055);
+}
+.service-card:hover{background:rgba(255,252,240,.82)}
+.project-card{background:rgba(255,252,240,.76)}
+.contact-form{background:rgba(255,252,240,.78)}
+.contact-form input,.contact-form select,.contact-form textarea{background:rgba(255,255,255,.78)}
+.toolbox-grid{border-color:var(--gold-edge)}
+.toolbox-grid>div{border-color:var(--gold-edge)}
+@media(max-width:650px){
+  .nav{background:rgba(235,218,170,.96);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
+}

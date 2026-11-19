@@ -22,7 +22,7 @@ document.querySelector('#root').innerHTML = `
 <header class="header">
   <div class="container nav-wrap">
     <a class="brand" href="#home" aria-label="Prosper Nemaungwe Technologies home">
-      <img class="brand-logo" src="${logoUrl}" alt="Prosper Nemaungwe Technologies logo"><span class="brand-name">PROSPER NEMAUNGWE <b>TECHNOLOGIES</b></span>
+      <img class="brand-logo" src="${logoUrl}" alt="Prosper Nemaungwe Technologies logo"><span class="brand-name">PROSPER NEMAUNGWE <span>TECHNOLOGIES</span></span>
     </a>
     <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">${icon('menu')}</button>
     <nav class="nav">
@@ -119,7 +119,7 @@ document.querySelector('#root').innerHTML = `
     </div>
   </section>
 </main>
-<footer class="footer"><div class="container footer-top"><a class="brand footer-brand" href="#home"><img class="brand-logo" src="${logoUrl}" alt="Prosper Nemaungwe Technologies logo"><span class="brand-name">PROSPER NEMAUNGWE <b>TECHNOLOGIES</b></span></a><span>Technology that moves you forward.</span><a href="#home" class="back-top">Back to top ↑</a></div><div class="container footer-bottom"><span>© ${new Date().getFullYear()} Prosper Nemaungwe Technologies. All rights reserved.</span><span>Designed with purpose in Zimbabwe.</span></div></footer>
+<footer class="footer"><div class="container footer-top"><a class="brand footer-brand" href="#home"><img class="brand-logo" src="${logoUrl}" alt="Prosper Nemaungwe Technologies logo"><span class="brand-name">PROSPER NEMAUNGWE <span>TECHNOLOGIES</span></span></a><span>Technology that moves you forward.</span><a href="#home" class="back-top">Back to top ↑</a></div><div class="container footer-bottom"><span>© ${new Date().getFullYear()} Prosper Nemaungwe Technologies. All rights reserved.</span><span>Designed with purpose in Zimbabwe.</span></div></footer>
 `;
 
 

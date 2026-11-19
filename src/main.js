@@ -21,7 +21,7 @@ document.querySelector('#root').innerHTML = `
 <header class="header">
   <div class="container nav-wrap">
     <a class="brand" href="#home" aria-label="Prosper Nemaungwe Technologies home">
-      <span class="brand-mark">PN</span><span class="brand-name">PROSPER NEMAUNGWE <b>TECHNOLOGIES</b></span>
+      <img class="brand-logo" src="/logo.png" alt="Prosper Nemaungwe Technologies logo"><span class="brand-name">PROSPER NEMAUNGWE <b>TECHNOLOGIES</b></span>
     </a>
     <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">${icon('menu')}</button>
     <nav class="nav">
@@ -86,7 +86,7 @@ document.querySelector('#root').innerHTML = `
 
   <section class="about-section" id="about">
     <div class="container about-grid">
-      <div class="about-visual"><div class="about-monogram">PN<span>.</span></div><div class="about-caption"><span>PERSONAL SERVICE</span><b>Technology with purpose.</b></div></div>
+      <div class="about-visual"><img class="about-logo" src="/logo.png" alt="Prosper Nemaungwe Technologies logo"><div class="about-caption"><span>PERSONAL SERVICE</span><b>Technology with purpose.</b></div></div>
       <div class="about-copy"><div class="eyebrow">ABOUT THE BUSINESS</div><h2>Built around your<br><span>real-world goals.</span></h2><p>Prosper Nemaungwe Technologies is an independent digital solutions brand led by Prosper Nemaungwe, an IT professional with experience across software development, IT support, networking and digital productivity tools.</p><p>We believe technology should solve a clear problem, be straightforward to use and create lasting value for the people who rely on it.</p><div class="about-points"><div>${icon('check-circle-2')} Solutions shaped around your needs</div><div>${icon('check-circle-2')} Clear communication from start to finish</div><div>${icon('check-circle-2')} Support that considers the bigger picture</div></div><a class="text-link light-link" href="#contact">Work with us ${icon('arrow-up-right')}</a></div>
     </div>
   </section>
@@ -118,7 +118,7 @@ document.querySelector('#root').innerHTML = `
     </div>
   </section>
 </main>
-<footer class="footer"><div class="container footer-top"><a class="brand footer-brand" href="#home"><span class="brand-mark">PN</span><span class="brand-name">PROSPER NEMAUNGWE <b>TECHNOLOGIES</b></span></a><span>Technology that moves you forward.</span><a href="#home" class="back-top">Back to top ↑</a></div><div class="container footer-bottom"><span>© ${new Date().getFullYear()} Prosper Nemaungwe Technologies. All rights reserved.</span><span>Designed with purpose in Zimbabwe.</span></div></footer>
+<footer class="footer"><div class="container footer-top"><a class="brand footer-brand" href="#home"><img class="brand-logo" src="/logo.png" alt="Prosper Nemaungwe Technologies logo"><span class="brand-name">PROSPER NEMAUNGWE <b>TECHNOLOGIES</b></span></a><span>Technology that moves you forward.</span><a href="#home" class="back-top">Back to top ↑</a></div><div class="container footer-bottom"><span>© ${new Date().getFullYear()} Prosper Nemaungwe Technologies. All rights reserved.</span><span>Designed with purpose in Zimbabwe.</span></div></footer>
 `;
 
 
